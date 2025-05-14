@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_routes/admin/dashboard.dart';
-import 'package:smart_routes/passenger/search_screen.dart';
+import 'package:smart_routes/role_selection.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AdminDashboardScreen()
+      home:  RoleSelectionPage(),
     );
   }
 }
